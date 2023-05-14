@@ -17,5 +17,11 @@ public class Main {
         System.out.println("Meat : "+b.getMeat());
         System.out.println("Onions : "+b.getOnions());
         System.out.println("Total Toppings : "+b.getTotalToppings());
+        System.out.println();
+        System.out.println("Cheese Price : "+b.getCheesePrice());
+        System.out.println("Tomato Price : "+b.getTomatoPrice());
+        System.out.println("Meat Price : "+b.getMeatPrice());
+        System.out.println("Onions Price : "+b.getOnionsPrice());
+        System.out.println("Total Price : "+b.getTotalPrice());
     }
 }

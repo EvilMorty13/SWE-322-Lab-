@@ -41,4 +41,25 @@ public class Burger {
     public int getTotalToppings() {
         return getCheese()+getTomato()+getMeat()+getOnions();
     } 
+        
+    public int getCheesePrice() {
+        return getCheese()*10;
+    }
+
+    public int getTomatoPrice() {
+        return getTomato()*5;
+    }
+
+    public int getMeatPrice() {
+        return getMeat()*20;
+    }
+
+    public int getOnionsPrice() {
+        return getOnions()*2;
+    }  
+
+
+    public int getTotalPrice() {
+        return getCheesePrice()+getTomatoPrice()+getMeatPrice()+getOnionsPrice();
+    }
 }
